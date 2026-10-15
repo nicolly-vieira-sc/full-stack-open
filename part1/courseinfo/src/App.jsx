@@ -1,6 +1,33 @@
-import Content from "./components/Content";
-import Header from "./components/Header";
-import Total from "./components/Total";
+const Header = ({ course }) => {
+  return <h1>{course.name}</h1>;
+};
+
+const Part = ({ part }) => {
+  return (
+    <p>
+      {part.name} {part.exercises}
+    </p>
+  );
+};
+
+const Total = ({ parts }) => {
+  return (
+    <p>
+      Number of exercises{" "}
+      {parts[0].exercises + parts[1].exercises + parts[2].exercises}
+    </p>
+  );
+};
+
+const Content = (props) => {
+  return (
+    <div>
+      <Part part={props.parts[0]} />
+      <Part part={props.parts[1]} />
+      <Part part={props.parts[2]} />
+    </div>
+  );
+};
 
 const App = () => {
   const course = {
