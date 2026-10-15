@@ -9,7 +9,7 @@ The course focuses on modern web application development using JavaScript, React
 | Part | Topic                                           | Exercises | Completed | 
 | ---- | ----------------------------------------------- | --------: | --------: |
 | 0    | Fundamentals of Web Apps                        |         6 |         6 |
-| 1    | Introduction to React                           |        14 |         11 |
+| 1    | Introduction to React                           |        14 |         14 |
 | 2    | Communicating with the Server                   |         — |         0 |
 | 3    | Programming a Server with NodeJS and Express    |         — |         0 |
 | 4    | Testing Express Servers, User Administration    |         — |         0 |
